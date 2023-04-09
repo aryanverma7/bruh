@@ -85,4 +85,67 @@ width: fit-content;
 height: 50px;
 padding: 5px;
 }
+.schedule_appoint,.reschedule_appoint,.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+.labels{
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.input{
+  width: 50vw;
+  border-radius: 5px;
+  height: 30px;
+  border-radius: 30px;
+}
+.button{
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+body {
+  margin: 0;
+}
+
+main {
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
   
+  background: rebeccapurple;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.logout{
+  background-color: white;
+  width:4.5rem;
+  height:1.5rem;
+  margin-right: 3rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
